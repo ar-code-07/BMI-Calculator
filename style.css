@@ -1,0 +1,87 @@
+html,body{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+font-size: 20px;
+background: #f268a2;
+background: linear-gradient(135deg,rgba(242, 104, 162, 1) 0%, rgba(76, 155, 245, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+font-family:a sans-serif,helvetica,arial;
+
+}
+
+h1{
+  color: white;
+  text-shadow: 0 0 30px #ef4e9f, 0 0 40px #d51877, 0 0 50px #df0773;
+}
+.container{
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+  border-radius: 16px;
+text-align: center;
+}
+
+button{
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: none;
+  padding: 9px 20px;
+  margin-bottom: 8px;
+  background: #db2c75;
+
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+button:hover{
+ background-color: #d61e6b;
+
+}
+button:active{
+  background-color:#a02357 ;
+}
+
+#results{
+  color: white;
+  font-size: 30px;
+}
+#guide{
+  color: white;
+  font-size: 30px;
+}
+
+.input-box{
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin-left: 5px;
+  padding: 4px 8px;
+  color: white;
+  outline: none;
+
+}
+label{
+  color: white;
+}
+
+
+h3{
+  color: indigo;
+}
+
+
+/*digital clock*/
+
+#clock{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: white;
+}
